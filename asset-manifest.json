@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/covidtrackerindia/static/css/main.3d467e20.chunk.css",
-    "main.js": "/covidtrackerindia/static/js/main.1d986fdb.chunk.js",
-    "main.js.map": "/covidtrackerindia/static/js/main.1d986fdb.chunk.js.map",
+    "main.css": "/covidtrackerindia/static/css/main.9c1380b5.chunk.css",
+    "main.js": "/covidtrackerindia/static/js/main.af823b61.chunk.js",
+    "main.js.map": "/covidtrackerindia/static/js/main.af823b61.chunk.js.map",
     "runtime-main.js": "/covidtrackerindia/static/js/runtime-main.cbc721dd.js",
     "runtime-main.js.map": "/covidtrackerindia/static/js/runtime-main.cbc721dd.js.map",
-    "static/js/2.51234c6f.chunk.js": "/covidtrackerindia/static/js/2.51234c6f.chunk.js",
-    "static/js/2.51234c6f.chunk.js.map": "/covidtrackerindia/static/js/2.51234c6f.chunk.js.map",
+    "static/js/2.90f3452a.chunk.js": "/covidtrackerindia/static/js/2.90f3452a.chunk.js",
+    "static/js/2.90f3452a.chunk.js.map": "/covidtrackerindia/static/js/2.90f3452a.chunk.js.map",
     "index.html": "/covidtrackerindia/index.html",
-    "static/css/main.3d467e20.chunk.css.map": "/covidtrackerindia/static/css/main.3d467e20.chunk.css.map",
-    "static/js/2.51234c6f.chunk.js.LICENSE.txt": "/covidtrackerindia/static/js/2.51234c6f.chunk.js.LICENSE.txt",
+    "static/css/main.9c1380b5.chunk.css.map": "/covidtrackerindia/static/css/main.9c1380b5.chunk.css.map",
+    "static/js/2.90f3452a.chunk.js.LICENSE.txt": "/covidtrackerindia/static/js/2.90f3452a.chunk.js.LICENSE.txt",
     "static/media/flag1.1d397c20.png": "/covidtrackerindia/static/media/flag1.1d397c20.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cbc721dd.js",
-    "static/js/2.51234c6f.chunk.js",
-    "static/css/main.3d467e20.chunk.css",
-    "static/js/main.1d986fdb.chunk.js"
+    "static/js/2.90f3452a.chunk.js",
+    "static/css/main.9c1380b5.chunk.css",
+    "static/js/main.af823b61.chunk.js"
   ]
 }
