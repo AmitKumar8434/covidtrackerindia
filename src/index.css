@@ -18,7 +18,7 @@ text-transform: capitalize;
   /* background-color: rgb(243, 243, 243); */
 }
 .card{
-  width: 200px;
+  width: 180px;
   height: 150px;
   margin: 10px auto;
   font-size: 1rem;
@@ -28,29 +28,29 @@ text-transform: capitalize;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  border: 2px solid rgb(57, 10, 228);
-  box-shadow: 10px 1px 8px 1px #7e7878;
+  /* border: 2px solid rgb(57, 10, 228); */
+  /* box-shadow: 10px 1px 8px 1px #7e7878; */
+  transition: all ease 0.5s;
+  box-shadow: 1px 5px 5px 2px rgb(0 0 0 / 50%);
   color: rgb(4, 45, 107);
   font-weight: 1000;
   border-radius: 10px;
   /* backdrop-filter: blur(15px); */
 }
 .card:hover{
-  color: #249c6a;
   cursor: pointer;
-  transform: scale(1.03,1.03);
-  border: 2px solid rgb(31, 196, 119);
+  transform: scale(1.05,1.05);
+  box-shadow: 10px 1px 8px 1px #7e7878;
+   background-color: #f7f7f7;
 }
 .card h2{
   margin-top: 10px;
   width: 100%;
-  font-weight: 1000;
-  text-shadow: 2px 2px 4px #27040405;
+  font-weight: 800;
 }
 .card p{
   margin-bottom: 10px;
   width: 100%;
-  text-shadow: 1px 1px 1px  #0000004d;
 }
 .header{
   background-color: rgb(255, 255, 255);
@@ -65,7 +65,7 @@ text-transform: capitalize;
 }
 .header_text{
   color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
 }
 img{
   width: 40px;
@@ -78,6 +78,7 @@ table {
   border: none;
   box-shadow: 0px 0px 9px 10px rgba(0,0,0,0.1);
   border-radius: 20px;
+  font-weight: 600;
 }
 
 td, th {
@@ -165,3 +166,7 @@ footer{
     font-size: 0.5rem;
   }
  }
+ /* node node_modules/gh-pages/bin/gh-pages-clean */
+ /* git add . */
+ /* git commit -m "message" */
+ /* git push -f  */

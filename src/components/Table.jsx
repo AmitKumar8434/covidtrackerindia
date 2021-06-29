@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import SwapVertIcon from '@material-ui/icons/SwapVert';
-
+import Slide from 'react-reveal/Slide';
 
 const Table = ({ dataArray }) => {
     const [sortType, setSortType] = useState(false);
@@ -78,6 +78,7 @@ const Table = ({ dataArray }) => {
                         if (data.state !== "Total" && data.state!=="State Unassigned") {
                                 return (
                                     <>
+                                         <Slide left>
                                         <tr key={key}>
                                             <td> {data.state}</td>
                                             <td> {data.confirmed}</td>
@@ -85,6 +86,7 @@ const Table = ({ dataArray }) => {
                                             <td> {data.recovered}</td>
                                             <td> {data.deaths}</td>
                                         </tr>
+                                        </Slide>
                                     </>
                                 )
                         }
