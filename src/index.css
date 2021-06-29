@@ -143,10 +143,13 @@ footer{
 .last{
   font-size: 1rem;
 }
-@media  (max-width: 500px) {
+@media  screen and (max-width: 650px) {
   .table_container{
-  width: auto;
+  width: 100%;
   font-size: 0.5rem;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
   }
   .card{
     font-size: 0.6rem;
@@ -155,7 +158,8 @@ footer{
     font-size: 0.7rem;
   }
   table{
-    overflow: hidden;
+    overflow: scroll;
+    width: 100%;
   }
   table th,table td{
     font-size: 0.5rem;
