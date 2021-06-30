@@ -37,11 +37,25 @@ text-transform: capitalize;
   border-radius: 10px;
   /* backdrop-filter: blur(15px); */
 }
+@keyframes shine {
+  0% {
+    background-position: right;    
+  }
+  /*100% {
+    background-position: left; it's the default value, no need to define it
+  }*/
+}
+
 .card:hover{
   cursor: pointer;
   transform: scale(1.05,1.05);
   box-shadow: 10px 1px 8px 1px #7e7878;
    background-color: #f7f7f7;
+   animation: shine 2s infinite;
+  background: 
+    linear-gradient(120deg,rgba(231, 114, 4, 0.432) 33%,rgba(255, 255, 255, 0.3) 50%,rgba(19, 221, 12, 0.39) 66%)
+    rgb(255, 255, 255);
+    background-size:300% 100%;
 }
 .card h2{
   margin-top: 10px;

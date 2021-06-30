@@ -5,7 +5,7 @@ import Card from './Card';
 import Header from './Header';
 import Table from './Table';
 import Footer from './Footer';
-import Bounce from 'react-reveal/Bounce';
+// import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
 
 
